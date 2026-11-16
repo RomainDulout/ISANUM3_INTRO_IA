@@ -1,0 +1,18 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter et otter
+.ipynb_checkpoints/
+.OTTER_LOG
+*.otter
+
+# Fichiers de travail personnels des étudiants
+donnees_perso/
+
+# Fichiers de test et copies de relecture (tout notebook dont le nom commence par _)
+_*.ipynb
+
+# macOS
+.DS_Store

@@ -1,0 +1,26 @@
+[project]
+name = "intro-ia-3a"
+version = "0.1.0"
+description = "R5-07 Introduction à l'intelligence artificielle - ISA NUM 3A (UPPA)"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "jupyterlab>=4.2",
+    "ipywidgets>=8.1",
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "scikit-learn>=1.5",
+    "otter-grader>=6.0",
+]
+
+[project.optional-dependencies]
+# Bloc réseaux de neurones (janvier) : uv sync --extra neurones
+neurones = ["torch>=2.4"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["course_tools"]
