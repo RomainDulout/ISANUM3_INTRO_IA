@@ -31,6 +31,7 @@ pyproject.toml, uv.lock   les bibliothèques du cours, aux mêmes versions pour 
 course_tools/             petit module du cours : votre prénom, le chargement des données, les curseurs
 donnees/                  les jeux de données (utilisables sans internet)
 01-donnees/               séance 1 : explorer et préparer des données
+02-regression/            séance 2 : régression linéaire et descente de gradient
 ```
 
 Vos fichiers personnels (par exemple le tableau sauvegardé à la fin du NB01) vont dans `donnees_perso/`, créé automatiquement.
@@ -38,6 +39,7 @@ Vos fichiers personnels (par exemple le tableau sauvegardé à la fin du NB01) v
 ## Données
 
 - Diamonds : ggplot2, H. Wickham. Les fichiers `diamonds_sali.csv` et `diamonds_sabote.csv` en sont dérivés, avec des défauts ajoutés pour les exercices.
+- Ames Housing : D. De Cock, *Journal of Statistics Education*, 2011 (`ames_housing.csv`).
 
 ## Auteur et droits
 
